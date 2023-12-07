@@ -1,0 +1,27 @@
+{
+  "name": "store_naughty_nice",
+  "description": "Store lists representing actions of a person or corporation separating out those that are naughty or nice as seen by Santa Claus",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "naughty": {
+        "type": "array",
+        "description": "list of Naughty things the person did",
+        "items": {
+          "type": "string"
+        }
+      },
+      "nice": {
+        "type": "array",
+        "description": "list of Nice things the person did",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "naughty",
+      "nice"
+    ]
+  }
+}

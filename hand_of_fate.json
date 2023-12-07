@@ -1,0 +1,21 @@
+{
+  "name": "get_determination",
+  "description": "Using a list of actions sorted by naughty or nice, determine whether the subject should be on the naughty or nice list",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "determination": {
+        "type": "string",
+        "description": "either 'naughty' or 'nice'"
+      },
+      "explanation": {
+        "type": "string",
+        "description": "a short paragraph explaining why the subject should be on the naughty or nice list"
+      }
+    },
+    "required": [
+      "determination",
+      "explanation"
+    ]
+  }
+}
